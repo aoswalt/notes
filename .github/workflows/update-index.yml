@@ -13,7 +13,7 @@ jobs:
         uses: docker://aoswalt/notoriety
         with:
           entrypoint: /bin/sh
-          args: -c "cd /github/workspace && notoriety --output-file README.md"
+          args: -c "cd /github/workspace && notoriety"
 
       - name: Commit index
         uses: stefanzweifel/git-auto-commit-action@v4
