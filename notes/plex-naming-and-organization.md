@@ -1,9 +1,9 @@
-```
+---
 source:
   - https://support.plex.tv/articles/naming-and-organizing-your-movie-media-files/
   - https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/
   - https://support.plex.tv/articles/200265296-adding-music-media-from-folders/
-```
+---
 
 # Plex Naming and Organization
 
