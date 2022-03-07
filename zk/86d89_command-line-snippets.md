@@ -1,8 +1,6 @@
----
-tags: [command_line]
----
-
 # Command Line Snippets
+
+#command-line #bash #zsh
 
 A collection of small snippets good for learning and building on top of, many from [climagic](https://twitter.com/climagic/).
 

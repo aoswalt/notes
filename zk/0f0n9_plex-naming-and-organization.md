@@ -1,10 +1,3 @@
----
-source:
-  - https://support.plex.tv/articles/naming-and-organizing-your-movie-media-files/
-  - https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/
-  - https://support.plex.tv/articles/200265296-adding-music-media-from-folders/
----
-
 # Plex Naming and Organization
 
 Plex is fairly smart but expects some particular naming and organization for best results.
@@ -45,7 +38,7 @@ Standalone, folder, with id
 
 ### Season-Based
 
-Files with the season and episode notation SXXEXX
+Files with the season and episode notation `SXXEXX`
 
 ```
 /TV Shows/ShowName/Season 02/ShowName – s02e17 – Optional_Info.ext
@@ -61,11 +54,11 @@ Date-based is effectively the same as season-based
 /TV Shows/ShowName/Season 02/ShowName – 2011-11-15 – Optional_Info.ext
 ```
 
-The date can use either the YYYY-MM-DD or DD-MM-YYYY formats and can use different separators:
+The date can use either the `YYYY-MM-DD` or `DD-MM-YYYY` formats and can use different separators:
 
-* Dashes (2011-11-15)
-* Periods (2011.11.15)
-* Spaces (2011 11 15)
+- Dashes (2011-11-15)
+- Periods (2011.11.15)
+- Spaces (2011 11 15)
 
 ### Miniseries
 
@@ -115,9 +108,17 @@ ShowName – s02e17 – Split_Name.ext
 
 Where `Split_Name` is one of the following:
 
-* cdX
-* discX
-* diskX
-* dvdX
-* partX
-* ptX
+- cdX
+- discX
+- diskX
+- dvdX
+- partX
+- ptX
+
+---
+
+related support pages:
+
+- https://support.plex.tv/articles/naming-and-organizing-your-movie-media-files/
+- https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/
+- https://support.plex.tv/articles/200265296-adding-music-media-from-folders/
