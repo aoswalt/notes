@@ -1,7 +1,5 @@
 # Zettelkasten
 
-#zk
-
 Zettelkasten (German for "slip box") is a method of note management focused on learning and thinking.
 
 The method focuses on a few key aspects for each individual "Zettel":
@@ -16,7 +14,9 @@ The [Introduction to the Zettelkasten Method](https://zettelkasten.de/introducti
 
 ## Tags
 
-Tags should describe [objects not topics](https://zettelkasten.de/posts/object-tags-vs-topic-tags/) to be able to get only the notes specifically applicable to the tag and not broadly related.
+Generally, [tags are ineffective](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z3MzhvmesiD2htMaEFQJif7gJgyaHAQvKH49Z) because they do not provide context. Links should be [explicitly](https://notes.andymatuschak.org/About_these_notes?stackedNotes=z4RjXweCWNTdmHUFJpDCPmWVnwBEDbKviu9QJ) and provide context about _why_ the note is being linked to.
+
+If leveraged, tags should describe [objects not topics](https://zettelkasten.de/posts/object-tags-vs-topic-tags/) to be able to get only the notes specifically applicable to the tag and not broadly related.
 
 > Only tags that are specific to the objects I use and mention in a note are worthy
 

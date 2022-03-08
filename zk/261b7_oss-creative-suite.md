@@ -1,7 +1,5 @@
 # OSS Creative Suite
 
-#oss
-
 | realm                               | software     |
 |-------------------------------------|--------------|
 | all the things (vfx, animation, 3d) | blender      |

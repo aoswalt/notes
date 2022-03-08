@@ -1,7 +1,5 @@
 # Language Server Protocol
 
-#lsp #api
-
 The [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) is an [api specification](https://microsoft.github.io/language-server-protocol/specifications/specification-current/) to decouple editor features from the language-specific implementation. This separation allows the language-specific server to intimately understand the language, often being developed in the language itself, and the editor to stay focused on its features without having to understand each language to support it.
 
 For example, given 2 editors, Vim and VS Code, and 2 languages, Elixir and JavaScript.
