@@ -61,13 +61,12 @@ id-length = 5
 # the group. This can be useful to quickly declare a group by the name of the
 # directory it applies to.
 
-#[group."<NAME>"]
-#paths = ["<DIR1>", "<DIR2>"]
-#[group."<NAME>".note]
-#filename = "{{date now}}"
-#[group."<NAME>".extra]
-#key = "value"
+[group.quick]
+paths = ["quick"]
 
+[group.quick.note]
+filename = "{{date now 'timestamp'}}"
+template = "quick.md"
 
 # MARKDOWN SETTINGS
 [format.markdown]
@@ -160,6 +159,9 @@ dead-link = "error"
 #
 [alias]
 n = 'zk new --title "$*" "$ZK_NOTEBOOK_DIR"'
+
+# use stdin as content https://github.com/mickael-menu/zk/issues/158
+quick = 'echo "$*" | zk new --group quick "$ZK_NOTEBOOK_DIR/../quick"'
 
 # Here are a few aliases to get you started.
 
