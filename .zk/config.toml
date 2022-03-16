@@ -158,6 +158,8 @@ dead-link = "error"
 #     * you can pipe commands together with the usual | character
 #
 [alias]
+stub = 'zk new --title "$*" --print-path --template stub.md "$ZK_NOTEBOOK_DIR"'
+
 n = 'zk new --title "$*" "$ZK_NOTEBOOK_DIR"'
 
 # use stdin as content https://github.com/mickael-menu/zk/issues/158
